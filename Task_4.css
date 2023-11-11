@@ -1,0 +1,114 @@
+*{
+    text-transform: capitalize;
+    background-color: #ddd;
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 80%;
+    margin: auto;
+}
+.Back {
+    background-color: gray;
+    color: #ddd;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+header h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+}
+header nav{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    top: 0;
+    box-shadow: 0px 3px 14px #959595;
+    width: 700px;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    margin: 20px;   
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.sec1{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sec_1{
+    background-color: gray;
+    color: white;
+    width: 170px;
+    padding: 10px;
+    margin: 20px;
+    outline: 10px solid gray;
+    border-left: 10px solid red;
+    border-radius: 3px;
+    font-style: italic;
+}
+.sec{
+    background-color: white;
+    font-size: 20px;
+}
+.sec1 img{
+    background-color: white;
+    max-width: 400px;
+    position: relative;
+    left: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 700px;
+    margin:10px auto;
+
+}
+footer p, div{
+    background-color: black;
+}
+.cont,.cont2,
+.cont3,.cont4{
+    text-decoration: none;
+    color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cont{
+    background-color: rgb(22, 71, 169);
+    letter-spacing: 4px;
+}
+.cont2{
+    background-color: rgb(243, 68, 115);
+    letter-spacing: 3px;
+}
+.cont3{
+    background-color: rgb(22, 0, 185);
+    letter-spacing: 4px;
+}
+.cont4{
+    background-color: rgb(0, 166, 187);
+    letter-spacing: 7px;
+}
+footer a:hover{
+    color: white;
+}
